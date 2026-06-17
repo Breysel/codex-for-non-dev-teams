@@ -576,6 +576,236 @@ p {
   border-color: var(--black);
 }
 
+.complete-kit .slide {
+  gap: 18px;
+  padding: 62px 72px;
+}
+
+.complete-kit .slide:not(.kit-cover):not(.toc-slide) {
+  padding-top: 94px;
+}
+
+.complete-kit .slide-title {
+  max-width: 1040px;
+}
+
+.complete-kit .jump-to-contents {
+  border: 2px solid var(--black);
+  border-radius: 999px;
+  color: var(--black);
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  padding: 9px 16px;
+  position: absolute;
+  right: 78px;
+  text-transform: uppercase;
+  top: 28px;
+}
+
+.kit-core,
+.kit-two-column,
+.prompt-pair,
+.team-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+}
+
+.kit-core {
+  margin-top: 20px;
+  max-width: 980px;
+}
+
+.kit-core > div,
+.kit-card,
+.prompt-card,
+.team-card,
+.quote-panel,
+.toc-card {
+  background: #f6f6f4;
+  border: 1px solid var(--line);
+  border-left: 9px solid var(--black);
+  padding: 18px 20px;
+}
+
+.kit-core > div:nth-child(2),
+.kit-card:nth-child(2),
+.prompt-card:nth-child(2),
+.toc-card:nth-child(2) {
+  border-left-color: var(--mint);
+}
+
+.kit-card:nth-child(3),
+.toc-card:nth-child(3) {
+  border-left-color: var(--gray-strong);
+}
+
+.kit-card:nth-child(4),
+.toc-card:nth-child(4) {
+  border-left-color: var(--black);
+}
+
+.kit-card h3,
+.prompt-card h3,
+.team-card h3,
+.quote-panel h3,
+.toc-card h3 {
+  font-size: 22px;
+  line-height: 1.15;
+  margin: 0 0 8px;
+}
+
+.kit-card p,
+.kit-card li,
+.prompt-card p,
+.team-card p,
+.quote-panel p,
+.toc-card p,
+.kit-core p {
+  color: #263238;
+  font-size: 18px;
+  line-height: 1.36;
+  margin: 0;
+}
+
+.kit-card ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.kit-card li + li {
+  margin-top: 7px;
+}
+
+.toc-slide {
+  justify-content: flex-start;
+}
+
+.toc-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 22px;
+  width: 100%;
+}
+
+.toc-card {
+  min-height: 142px;
+}
+
+.toc-card span {
+  color: var(--mint);
+  display: block;
+  font-size: 16px;
+  font-weight: 950;
+  margin-bottom: 8px;
+}
+
+.section-divider {
+  background: linear-gradient(135deg, #ffffff 0%, #ffffff 70%, var(--mint-wash) 70%, var(--mint-wash) 100%);
+}
+
+.quote-panel {
+  max-width: 920px;
+}
+
+.dense-slide {
+  justify-content: center;
+}
+
+.dense-slide h2,
+.prompt-slide h2,
+.team-slide h2 {
+  font-size: clamp(34px, 4.4vw, 56px);
+  max-width: 1080px;
+}
+
+.metric-strip,
+.working-loop {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+}
+
+.metric-strip {
+  margin-top: 6px;
+}
+
+.working-loop {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 12px;
+}
+
+.metric-strip div,
+.working-loop div {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-top: 6px solid var(--mint);
+  padding: 16px;
+}
+
+.metric-strip strong,
+.working-loop strong {
+  display: block;
+  font-size: 18px;
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+
+.metric-strip span,
+.working-loop span {
+  color: var(--muted);
+  display: block;
+  font-size: 16px;
+  line-height: 1.32;
+}
+
+.prompt-slide {
+  justify-content: center;
+}
+
+.prompt-card {
+  min-height: 430px;
+}
+
+.prompt-card code {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  color: #111111;
+  display: block;
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 12.5px;
+  line-height: 1.35;
+  margin-top: 12px;
+  padding: 13px;
+  white-space: pre-wrap;
+}
+
+.team-card {
+  align-items: flex-start;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 160px minmax(0, 1fr);
+  min-height: 390px;
+}
+
+.team-card img {
+  aspect-ratio: 1;
+  border: 4px solid var(--black);
+  display: block;
+  object-fit: cover;
+  width: 160px;
+}
+
+.team-card .eyebrow {
+  margin-bottom: 8px;
+}
+
 .matrix {
   display: grid;
   gap: 14px;
