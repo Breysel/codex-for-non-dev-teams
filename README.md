@@ -9,8 +9,8 @@ A lightweight HTML enablement kit for helping non-developer teams understand whe
 - `facilitator-deck.html` - 10-slide workshop deck
 - `codex-best-practices.html` - practical habits and prompt starters
 - `who-we-are.html` - Stage+ team context
-- `codex-vp-pitch.html` - source for the condensed VP pitch deck
-- `codex-for-non-dev-teams-vp-pitch.pdf` - 6-slide pitch deck for stakeholder sharing
+- `codex-pitch.html` - source for the condensed pitch deck
+- `codex-for-non-dev-teams.pdf` - 6-slide pitch deck for stakeholder sharing
 - `codex-complete-kit.html` - combined source for the complete PDF kit
 - `codex-for-non-dev-teams-complete-kit.pdf` - one forwardable PDF with section jump links
 

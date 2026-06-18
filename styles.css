@@ -507,16 +507,7 @@ p {
 }
 
 .slide::after {
-  bottom: 28px;
-  color: var(--black);
-  content: "BEATS & BYTES    [CODEX ENABLEMENT]    WE CONNECT THE BEATS AND THE BYTES";
-  font-size: 12px;
-  font-weight: 900;
-  left: 42px;
-  letter-spacing: 0.01em;
-  position: absolute;
-  right: 42px;
-  z-index: 1;
+  display: none;
 }
 
 .slide > * {
@@ -806,15 +797,15 @@ p {
   margin-bottom: 8px;
 }
 
-.vp-pitch .slide {
+.pitch-deck .slide {
   padding: 66px 72px;
 }
 
-.vp-pitch .slide-title {
+.pitch-deck .slide-title {
   max-width: 1040px;
 }
 
-.vp-pitch .lede {
+.pitch-deck .lede {
   max-width: 980px;
 }
 
